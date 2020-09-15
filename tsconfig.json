@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "outDir": "bin",
+    "rootDir": ".",
+    "module": "commonjs",
+    "lib": ["es2015", "es2016", "es2017", "es2018", "es2019", "esnext"],
+
+    "strict": false,
+    "sourceMap": false,
+    "declaration": false,
+    "alwaysStrict": false,
+    "skipLibCheck": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true
+  },
+  "exclude": [
+    "bin",
+    "tests",
+    "../node_modules"
+  ]
+}
